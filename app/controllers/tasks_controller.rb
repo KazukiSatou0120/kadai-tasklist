@@ -19,7 +19,7 @@ class TasksController < ApplicationController
   end
   
   def new
-    @task = Task.new(content: 'status')
+    @task = Task.new
   end
   
   def edit
